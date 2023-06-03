@@ -133,7 +133,7 @@ to{
 #center-about {
     width: 33%;
     margin: 0 auto;
-    
+
     }
 
 hr {
@@ -168,4 +168,21 @@ hr {
 
 #welcome {
     text-align: center;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/2021-07-03T143921Z_893708656_UP1EH7314PJDH_RTRMADP_3_TENNIS-WIMBLEDON-370x355.webp') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
