@@ -31,6 +31,9 @@ light house test blabalabakl
 ### Bugs
 
 ### Validator Testing
+W3C CSS Validation
+
+![Screenshot of CSS Validation](assets/images/screenshot-css-validation.PNG)
 
 ## Deployment
 ---
