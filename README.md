@@ -21,7 +21,17 @@ The Navbar is at the very top of the page it contains some navigation elements t
 
 ## Testing
 ---
+chrome fire fox microsoft edge blaab bla
+responsive on all screen sizes balbla
+
+light house test blabalabakl
+
+![Screenshot of Lighthouse](assets/images/screenshot-lighthouse.PNG)
 
 ### Bugs
 
 ### Validator Testing
+
+## Deployment
+---
+
