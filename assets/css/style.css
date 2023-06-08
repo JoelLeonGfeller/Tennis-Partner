@@ -14,6 +14,10 @@ body {
 
 /* heading and logo */
 
+.navbar {
+    background-color: #e4e4e4;
+}
+
 h1, h2 {
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
@@ -63,6 +67,7 @@ h1, h2 {
     height: 700px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 
     }
 
@@ -71,7 +76,7 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 700px;
+    height: 500px;
     width: 100%;
     background: url('../images/Contact-Banner-2000x500.jpg') no-repeat center center;
 
@@ -215,12 +220,22 @@ hr {
     color: #fafafa;
 }
 
-/* footer */
-
-#footer {
-    height: 150px;
-
+/* Contact Form */
+.container-contact-form {
+    display: inline-block;
+    margin-left: 5rem;
 }
+
+.container-contact-form > section {
+    display: block;
+}
+
+.container-contact-form .form-field {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* footer */
 
 .social-networks {
     text-align: center;
@@ -254,6 +269,9 @@ hr {
 /* media queries */
 
 @media screen and (max-width: 1200px) {
+    #menu {
+        float: left;
+    }
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -296,7 +314,6 @@ hr {
     #menu {
         clear:left;
         float: left;
-        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
@@ -337,5 +354,9 @@ hr {
     @media screen and (max-width: 800px) {
         #photos {
             column-count: 2;
+        }
+
+        .container-contact-form {
+            margin-left: 1rem;
         }
     }
