@@ -1,5 +1,5 @@
 # Tennis Pro
-asdasdasdasdsad
+![Screenshot of the website on different screens](assets/images/screenshot-am-i-responsive.PNG)
 ## Features
 ---
 
@@ -34,6 +34,10 @@ light house test blabalabakl
 W3C CSS Validation
 
 ![Screenshot of CSS Validation](assets/images/screenshot-css-validation.PNG)
+
+W3C HTML Validation
+
+![Screenshot of HTML Validation](assets/images/screenshot-html-validation.PNG)
 
 ## Deployment
 ---
