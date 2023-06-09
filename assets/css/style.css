@@ -80,7 +80,7 @@ h2 {
 #hero-image {
   height: 500px;
   width: 100%;
-  background: url("../images/Contact-Banner-2000x500.jpg") no-repeat center
+  background: url("../images/hero-image.jpg") no-repeat center
     center;
 
   /* animates zoom effect on loading page */
@@ -166,7 +166,7 @@ hr {
 }
 
 #circle-cover-bg {
-  background: url("../images/2021-07-03T143921Z_893708656_UP1EH7314PJDH_RTRMADP_3_TENNIS-WIMBLEDON-370x355.webp")
+  background: url("../images/federer-roger.jpg")
     no-repeat center center;
   height: 100%;
   border-radius: 50%;
@@ -175,7 +175,7 @@ hr {
 /* time table */
 
 #times {
-  background-image: url("../images/20170106_About_USTA_A.jpg.thumb.585.1170.jpeg");
+  background-image: url("../images/tennis-balls.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
