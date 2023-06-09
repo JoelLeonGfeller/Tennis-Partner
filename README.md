@@ -62,4 +62,5 @@ The site was deployed to GitHub pages. The steps to deploy are:
 
 - In the GitHub repository, navigate to the Settings tab.
 - From the source section drop-down menu, select the Master Branch.
-- Once the Master Branch has been selected, the page provided the link to the completed website.- 
+- Once the Master Branch has been selected, the page provided the link to the completed website.
+the live link can be found here: https://joelleongfeller.github.io/tennis-pro/
