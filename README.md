@@ -56,6 +56,14 @@ W3C HTML Validation
 ![Screenshot of HTML Validation](assets/images/screenshot-html-validation.PNG)
 - the warning cant be ignored, as no heading is required for this section.
 
+## Bugs
+In the signup.html url an error occured when cheked by W3C Validator due to a duplicated id atribute.
+
+I solved this bug by renaming the IDs.
+
+![Screenshot of HTML Validation Bug](assets/images/signup-error-fix.png)
+
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are:
