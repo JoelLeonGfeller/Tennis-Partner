@@ -3,7 +3,7 @@ Tennis Pro Academy is a website for people who are looking to start playing tenn
 
 ![Screenshot of the website on different screens](assets/images/screenshot-am-i-responsive.PNG)
 ## Features
----
+
 
 ### - Navigation
 - The Navbar is at the very top of the page it contains some navigation elements to navigate arround the side.
@@ -38,7 +38,7 @@ Tennis Pro Academy is a website for people who are looking to start playing tenn
 ![Screenshot of the Footer](assets/images/screenshot-discover-more.PNG)
 - In the footer you can see the social media links.
 ## Testing
----
+
 The website was tested with chrome, fire fox, microsoft edge and the 
 responsivness of it on all screen sizes!
 
@@ -57,10 +57,14 @@ W3C HTML Validation
 - the warning cant be ignored, as no heading is required for this section.
 
 ## Deployment
----
+
 The site was deployed to GitHub pages. The steps to deploy are:
 
 - In the GitHub repository, navigate to the Settings tab.
 - From the source section drop-down menu, select the Master Branch.
 - Once the Master Branch has been selected, the page provided the link to the completed website.
 the live link can be found here: https://joelleongfeller.github.io/tennis-pro/
+
+## Credits
+
+- Large parts of the HTML structure and some parts of the stylesheet are inspired by the Code Instututes project "Love Running".
