@@ -75,4 +75,4 @@ the live link can be found here: https://joelleongfeller.github.io/tennis-pro/
 
 ## Credits
 
-- Large parts of the HTML structure and some parts of the stylesheet are inspired by the Code Instututes project "Love Running".
+- Large parts of the HTML structure and some parts of the stylesheet are inspired by the Code Instututes project "Love Running" https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode.
