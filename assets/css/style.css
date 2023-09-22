@@ -10,6 +10,10 @@ body {
   font-family: Merriweather, sans-serif;
   font-weight: 300;
   color: #3a3a3a;
+  background-image: url("../images/signup.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* heading and logo */
@@ -87,8 +91,8 @@ h2 {
   height: 150x;
   padding-top: 10px;
   padding-bottom: 5px;
-  background-color: plum;
-  bottom:  300px;
+  background-color: gray;
+  bottom: 300px;
   left: 200px;
   position: relative;
 }
@@ -96,8 +100,7 @@ h2 {
 #hero-image {
   height: 500px;
   width: 100%;
-  background: url("../images/hero-image.jpg") no-repeat center
-    center;
+  background: url("../images/hero-image.jpg") no-repeat center center;
 
   /* animates zoom effect on loading page */
   animation-name: hero-zoom;
@@ -110,6 +113,7 @@ h2 {
   from {
     transform: scale(1);
   }
+
   to {
     transform: scale(1.1);
   }
@@ -182,8 +186,7 @@ hr {
 }
 
 #circle-cover-bg {
-  background: url("../images/federer-roger.jpg")
-    no-repeat center center;
+  background: url("../images/federer-roger.png") no-repeat center center;
   height: 100%;
   border-radius: 50%;
 }
@@ -222,19 +225,53 @@ hr {
 
 /* Contact Form */
 .container-contact-form {
-  display: inline-block;
-  margin-left: 5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  /* Center horizontally */
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Center horizontally */
+  margin-top: 10%;
+  /* Adjust this value to control vertical positioning */
 }
 
-.container-contact-form > section {
-  display: block;
-}
-
-.container-contact-form .form-field {
-  border: 1px solid black;
+/* Style the form section */
+section {
+  background-color: #fff;
+  padding: 20px;
   border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Style the form fields */
+.form-field {
+  border: 2px solid #3498db;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+/* Style the submit button on hover */
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
 
 
 /* footer */
@@ -243,7 +280,7 @@ hr {
   text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
   display: inline;
 }
 
@@ -251,7 +288,31 @@ hr {
   font-size: 160%;
   margin: 1%;
   padding: 5%;
-  color: #3a3a3a;
+  color: yellow;
+}
+
+/* Facebook icon */
+.social-networks li:nth-child(1) a i.fa-facebook {
+  color: #3b5998;
+  /* Facebook's blue color */
+}
+
+/* Twitter icon */
+.social-networks li:nth-child(2) a i.fa-twitter {
+  color: #1da1f2;
+  /* Twitter's blue color */
+}
+
+/* YouTube icon */
+.social-networks li:nth-child(3) a i.fa-youtube {
+  color: #c4302b;
+  /* YouTube's red color */
+}
+
+/* Instagram icon */
+.social-networks li:nth-child(4) a i.fa-instagram {
+  color: palevioletred;
+  /* Instagram's pink/red color */
 }
 
 /* gallery */
@@ -263,7 +324,7 @@ hr {
   column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
   width: 100%;
 }
 
@@ -273,6 +334,7 @@ hr {
   #menu {
     float: left;
   }
+
   #club-ethos {
     width: 65%;
     height: 1200px;
@@ -298,7 +360,7 @@ hr {
     padding: 0;
   }
 
-  #times > div {
+  #times>div {
     width: 100%;
     clear: both;
     height: 150px;
